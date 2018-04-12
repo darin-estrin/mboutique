@@ -1,0 +1,192 @@
+body {
+  color: #6a6969;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+/* Header */
+
+header {
+  align-items: center;
+  background-color: #fffabe;
+  display: flex;
+  height: 72px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 60%;
+}
+
+.links a {
+  font-size: 1.6em;
+  color: #515151;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.links a:hover {
+  color: #d42551
+}
+
+/* Welcome Pagge */
+
+.welcome {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+}
+
+.message {
+  width: 70%;
+}
+
+.message-title {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.4em;
+  line-height: 1.5em;
+}
+
+.daily-samples {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  justify-content: space-between;
+}
+
+.samples {
+  align-content: space-around;
+  display: flex;
+  height: 160px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sample {
+  background-color: #fffabe;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 140px;
+  width: 126px;
+}
+
+.sample p {
+  font-size: 1.2em;
+  padding-left: 10px;
+}
+
+.sample img {
+  padding-right: 10px;
+}
+
+.day-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50px;
+}
+
+.day-wrapper p {
+  margin: 0;
+}
+
+.sample .day {
+  font-size: 1.4em;
+}
+
+.flavors {
+  align-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.flavor p {
+  height: 33px;
+  margin: 0;
+}
+
+.flavor {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  height: 33px;
+  justify-content: space-between;
+}
+
+.coconut {
+  background-color: #824603;
+  color: #ffffff;
+}
+
+.vanilla {
+  background-color: #df5277;
+  color: #ffffff;
+}
+
+.lemon {
+  background-color: #a2304e;
+  color: #ffffff;
+}
+
+.almond {
+  background-color: #c39005;
+  color: #ffffff;
+}
+
+/* Images */
+
+.welcome-image {
+  height: auto;
+  width: 100%;
+}
+
+.macarons-image {
+  height: 50%;
+  width: auto;
+}
+
+
+
+/* Footer */
+footer {
+  background-color: #df5277;
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+footer p {
+  color: #ffffff;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+.copyright {
+  align-self: center;
+}
+
+.social-media img {
+  margin-left: 10px;
+}
