@@ -1,0 +1,121 @@
+/* Welcome Pagge */
+
+.welcome {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+}
+
+.message {
+  width: 70%;
+}
+
+.message-title {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.4em;
+  line-height: 1.5em;
+}
+
+.daily-samples {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  justify-content: space-between;
+}
+
+.samples {
+  align-content: space-around;
+  display: flex;
+  height: 160px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sample {
+  background-color: #fffabe;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 140px;
+  width: 126px;
+}
+
+.sample p {
+  font-size: 1.2em;
+  padding-left: 10px;
+}
+
+.sample img {
+  padding-right: 10px;
+}
+
+.day-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50px;
+}
+
+.day-wrapper p {
+  margin: 0;
+}
+
+.sample .day {
+  font-size: 1.4em;
+}
+
+.flavors {
+  align-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.flavor p {
+  height: 33px;
+  margin: 0;
+}
+
+.flavor {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  height: 33px;
+  justify-content: space-between;
+}
+
+.coconut {
+  background-color: #824603;
+  color: #ffffff;
+}
+
+.vanilla {
+  background-color: #df5277;
+  color: #ffffff;
+}
+
+.lemon {
+  background-color: #a2304e;
+  color: #ffffff;
+}
+
+.almond {
+  background-color: #c39005;
+  color: #ffffff;
+}
+
+/* Images */
+
+.welcome-image {
+  height: auto;
+  width: 100%;
+}
+
+.macarons-image {
+  height: 50%;
+  width: auto;
+}
