@@ -17,3 +17,9 @@ h3 {
   font-size: 1.4em;
   color: #6a6969;
 }
+
+@media screen and (max-width: 900px) {
+  .our-macarons {
+    background: none;
+  }
+}
