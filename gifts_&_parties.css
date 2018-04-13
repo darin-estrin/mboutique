@@ -30,5 +30,6 @@ h3 {
 @media screen and (max-width: 900px) {
   .gifts-parties {
     background: none;
+    height: auto;
   }
 }
