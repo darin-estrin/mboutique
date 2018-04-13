@@ -26,3 +26,9 @@ h3 {
 .party-tower {
   width: 60%;
 }
+
+@media screen and (max-width: 900px) {
+  .gifts-parties {
+    background: none;
+  }
+}
