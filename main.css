@@ -116,4 +116,8 @@ footer p {
     text-align: center;
     width: 50%;
   }
+
+  footer .order {
+    color: #ffffff;
+  }
 }
