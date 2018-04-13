@@ -1,0 +1,19 @@
+.our-macarons {
+  background-image: url(assets/images/our-macarons-background.png);
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  justify-content: space-around;
+  padding:0 40px;
+  max-width: 1000px;
+}
+
+h3 {
+  font-size: 2em;
+  color: #6a6969;
+}
+
+.flavors > li, p {
+  font-size: 1.4em;
+  color: #6a6969;
+}
