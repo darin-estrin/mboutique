@@ -66,3 +66,9 @@ footer p {
 .social-media img {
   margin-left: 10px;
 }
+
+/* Images */
+.hero-image img {
+  height: auto;
+  width: 100%;
+}
