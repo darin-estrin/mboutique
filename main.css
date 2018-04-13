@@ -73,3 +73,47 @@ footer p {
   height: auto;
   width: 100%;
 }
+
+@media screen and (max-width: 900px) {
+  .container {
+    min-width: 320px;
+    width: 100vw;
+  }
+
+  header {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .links {
+    justify-content: space-between;
+    padding-left: 0;
+    width: 90vw;
+  }
+
+  .links li {
+    font-size: 2vw;
+  }
+
+  .macarons-image {
+    display: none;
+  }
+
+  .hero-image {
+    height: auto;
+    width: 100%;
+  }
+
+  footer {
+    height: auto;
+  }
+
+  .contact {
+    flex-wrap: wrap;
+  }
+
+  .order, .phone {
+    text-align: center;
+    width: 50%;
+  }
+}

@@ -114,3 +114,13 @@
   height: 50%;
   width: auto;
 }
+
+@media screen and (max-width: 900px) {
+  .daily-samples {
+    display: none;
+  }
+
+  .welcome {
+    height: auto;
+  }
+}
