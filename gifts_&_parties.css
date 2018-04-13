@@ -1,0 +1,28 @@
+.gifts-parties {
+  background-image: url(assets/images/gifts-parties-background.png);
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  justify-content: space-around;
+  padding: 40px 40px;
+  max-width: 1000px;
+}
+
+.order {
+  color: #df5277;
+  text-decoration: none;
+}
+
+h3 {
+  color: #6a6969;
+  font-size: 2em;
+}
+
+.gifts-parties li, p {
+  color: #6a6969;
+  font-size: 1.4em;
+}
+
+.party-tower {
+  width: 60%;
+}
